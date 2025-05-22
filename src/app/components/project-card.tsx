@@ -6,9 +6,10 @@ interface ProjectCardProps {
   description: string;
   image: string;
   technologies: string[];
-  repoLink: string;
+  repoLink?: string;
   demoLink?: string;
   delay?: number;
+  isPrivate?: boolean;
 }
 
 export function ProjectCard({
@@ -19,6 +20,7 @@ export function ProjectCard({
   repoLink,
   demoLink,
   delay = 0,
+  isPrivate,
 }: ProjectCardProps) {
   return (
     <ScrollReveal delay={delay} className="h-full">
@@ -46,15 +48,22 @@ export function ProjectCard({
           </div>
 
           <div className="flex flex-wrap gap-3 mt-auto">
-            <Button variant="outline" asChild>
-              <a href={repoLink} target="_blank" rel="noopener noreferrer">
-                Repository
-              </a>
-            </Button>
+            {isPrivate && (
+              <Button variant="outline" disabled>
+                Private website
+              </Button>
+            )}
+            {repoLink && (
+              <Button variant="outline" asChild>
+                <a href={repoLink} target="_blank" rel="noopener noreferrer">
+                  Repository
+                </a>
+              </Button>
+            )}
             {demoLink && (
               <Button asChild>
                 <a href={demoLink} target="_blank" rel="noopener noreferrer">
-                  Live Demo
+                  Access here
                 </a>
               </Button>
             )}

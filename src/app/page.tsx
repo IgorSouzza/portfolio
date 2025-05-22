@@ -187,55 +187,51 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="E-commerce Platform"
-              description="A full-featured e-commerce platform with product catalog, cart functionality, user authentication, and payment processing."
-              image="https://source.unsplash.com/random/800x600/?ecommerce"
-              technologies={["React", "Node.js", "MongoDB", "Stripe"]}
-              repoLink="https://github.com"
-              demoLink="https://demo.com"
+              title="Hubnari"
+              description="Turn your ISP into a smart service hub with neutral network, automation, and efficient management."
+              image="https://hubnari.com.br/og-default.jpg"
+              technologies={["React", "Nextjs", "Typescript"]}
+              demoLink="https://hubnari.com.br"
               delay={100}
             />
             <ProjectCard
-              title="Task Management App"
-              description="A responsive task management application with drag-and-drop functionality, team collaboration features, and real-time updates."
-              image="https://source.unsplash.com/random/800x600/?task"
-              technologies={["React", "TypeScript", "Firebase", "Tailwind CSS"]}
-              repoLink="https://github.com"
-              demoLink="https://demo.com"
+              title="Hubnari Blog"
+              description="Blog about neutral networks, internet, TV and much more!"
+              image="https://blog.hubnari.com.br/api/og?title=Blog%20da%20Hubnari"
+              technologies={["Nextjs", "Headless CMS", "Tailwind CSS"]}
+              demoLink="https://blog.hubnari.com.br"
               delay={200}
             />
             <ProjectCard
-              title="Portfolio Website"
-              description="A modern, responsive portfolio website with dark mode, animations, and contact form functionality."
-              image="https://source.unsplash.com/random/800x600/?portfolio"
-              technologies={["React", "TypeScript", "Tailwind CSS"]}
-              repoLink="https://github.com"
+              title="Carteira Global @ Banco Modal"
+              description="Investment platform that helps users manage multi-institutional investment portfolios."
+              image="https://media.licdn.com/dms/image/v2/D4D22AQGw4xKFfH6HkA/feedshare-shrink_800/feedshare-shrink_800/0/1695761509788?e=2147483647&v=beta&t=bbBkaY9WILKUecGKsCEemwfnca2RvOeC3yZAf8XWw68"
+              technologies={["Nextjs", "GraphQL", "Tailwind CSS"]}
+              isPrivate
               delay={300}
             />
             <ProjectCard
-              title="Blog Platform"
-              description="A feature-rich blog platform with markdown support, comment system, and admin dashboard."
-              image="https://source.unsplash.com/random/800x600/?blog"
-              technologies={["Next.js", "Prisma", "PostgreSQL"]}
-              repoLink="https://github.com"
-              demoLink="https://demo.com"
+              title="Lindie"
+              description="Blog with focus on performance using full capabilities of Nextjs SSG and ISG."
+              image="https://lindie.com.br/cover.jpg"
+              technologies={["Nextjs", "Prismic", "GraphQL", "Node.js"]}
+              demoLink="https://lindie.com.br/"
               delay={400}
             />
             <ProjectCard
-              title="Weather App"
-              description="A weather forecast application with location-based data, interactive maps, and detailed weather information."
-              image="https://source.unsplash.com/random/800x600/?weather"
-              technologies={["React", "OpenWeather API", "Leaflet"]}
-              repoLink="https://github.com"
-              demoLink="https://demo.com"
+              title="Gibwork"
+              description="Gibwork connects skilled professionals with freelance work opportunities, offering seamless integration with all Solana tokens for secure and efficient transactions."
+              image="https://gb-work.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgiblanding.f14e0ee0.png&w=3840&q=75"
+              technologies={["Nextjs", "Nestjs", "Web3", "Crypto"]}
+              demoLink="https://gib.work/"
               delay={500}
             />
             <ProjectCard
-              title="Fitness Tracker"
-              description="A comprehensive fitness tracking application with workout plans, progress monitoring, and nutrition tracking."
-              image="https://source.unsplash.com/random/800x600/?fitness"
-              technologies={["React Native", "TypeScript", "Redux", "Firebase"]}
-              repoLink="https://github.com"
+              title="BitCapital"
+              description="Secure and robust Open Banking Platform based on Blockchain"
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNFfnYLdKl7OkxqOhbhd3NzuSqQWQ0HpzGw&s"
+              technologies={["Nextjs", "Vuejs", "Node"]}
+              demoLink="https://www.bitcapital.com.br/"
               delay={600}
             />
           </div>
